@@ -23,11 +23,16 @@ wp-config.php
 # Example themes
 /wp-content/themes/twenty*/
 
+# Whitelist your custom theme
+!/wp-content/themes/my-custom-theme/
+
 # Example plugin
 /wp-content/plugins/hello.php
 
 # Uploads
 /wp-content/uploads/
+
+
 
 # Log files
 *.log
